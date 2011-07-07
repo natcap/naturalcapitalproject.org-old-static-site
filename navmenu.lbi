@@ -1,0 +1,17 @@
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <div id="menu">
+    <ul id="nav">
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="wherewework.html" >WHERE WE WORK</a>
+        <ul>
+          <li><a href="california.html">CALIFORNIA</a></li>
+          <li><a href="china.html">CHINA</a></li>
+          <li><a href="tanzania.html">TANZANIA</a></li>
+        </ul>
+      </li>
+      <li><a href="people.html" >PEOPLE</a></li>
+      <li><a href="InVEST.html">TOOLBOX</a></li>
+      <li><a href="contactus.html">CONTACT US</a></li>
+    </ul>
+  </div>
+  <hr class="clearboth" />
