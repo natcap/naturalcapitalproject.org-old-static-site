@@ -7,6 +7,10 @@
 <link href="navmenu.css" rel="stylesheet" type="text/css" />
 <link href="images/favicon.gif" rel="shortcut icon" type="image/gif" />
 <script type="text/javascript" src="scripts/dropmenu.js" language="javascript"></script>
+<script type="text/javascript">
+	function changeButton(img_name,img_src) {
+		document[img_name].src=img_src; };
+</script>
 </head>
 <body>
 <div id="spacer"></div>
@@ -75,7 +79,10 @@
     <div id="story_4">
       <h1>InVEST: Integrated Valuation of Ecosystem Services and Tradeoffs</h1>
 	  <br />
-      	  <a href="http://invest.ecoinformatics.org/" onClick="pageTracker._trackEvent('Download', 'InVEST', 'InVEST');" target="_blank"><div class="photo_right"><img src="images/invest_splash_106.JPG" alt="&copy; 2011 Natural Capital Project" width="200" height="106" /></div> </a>
+	  <a href="http://invest.ecoinformatics.org/" onClick="pageTracker._trackEvent('Download', 'InVEST', 'InVEST');" target="_blank" onmouseover="changeButton('dl-button','images/dl_invest_active.png')" onmouseout="changeButton('dl-button','images/dl_invest_inactive.png')">
+	  	<div class="photo_right">
+      	  <img name="dl-button" id="dl_invest" src="images/dl_invest_inactive.png" ><br/>
+      	</div> </a>
       <a name="Need" id="Need"></a><h2>The Need for a New Tool</h2>
       <p>InVEST is a family of tools to map and value the goods and services from nature which are essential for sustaining and fulfilling human life.</p>
       <p><b>*UPDATE* Now includes models for COASTAL and MARINE ecosystem services.</b></p>
