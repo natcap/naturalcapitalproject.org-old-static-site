@@ -95,8 +95,40 @@ div#home_mission {
 	position: absolute;
 	top: 140px;
 	left: 0px;
-	background-color:     #FFFFFF;
+	background-color: #555;
+	text-align: center;
 }
+
+div#dl_notify{
+	font-family: Arial, Helvetica, sans-serif;
+	/*background-image:url("images/green-grad.jpg");*/
+	background-color: #9bbb58;
+	background-repeat: repeat-x;
+	height: 70px;
+}
+
+div#dl_notify a{
+	text-decoration: none;
+	color: #000;
+}
+
+img#dl_arrow {
+	padding-top: 5px;
+	position:relative;
+	left: 285px;
+	float:left;
+}
+
+div#dl_notify a:hover{
+	color: #555555;
+}
+
+#dl_notify span.invest {
+	position: relative;
+	right: 37px;
+	top:5px;
+}
+
 
 div#tools_teaser {
 	height: 75px;
