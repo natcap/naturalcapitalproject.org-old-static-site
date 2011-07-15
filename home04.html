@@ -23,22 +23,7 @@ sfHover = function() {
 if (window.attachEvent) window.attachEvent("onload", sfHover);
 
 //--><!]]></script>
-
-<script type="text/javascript">
-	function changeClass() {
-		var classname = document.getElementById("dl_button").className;
-		//alert(classname);
-		
-		if (classname == "inactive"){
-			document.getElementById("dl_button").className = document.getElementById("dl_button").className.replace(/\binactive\b/, 'active');
-		}
-		else {
-			document.getElementById("dl_button").className = document.getElementById("dl_button").className.replace(/\bactive\b/, 'inactive');
-
-		}
-	}
-</script>
-
+<script type="text/javascript" src="scripts/toggleButton.js"></script>
 <style type="text/css">
 <!--
 .style2 {font-family: Arial, Helvetica, sans-serif}

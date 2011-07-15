@@ -149,21 +149,21 @@ div#pullquote h2
     font-size: 1.5em;
     }
 
-div#pullquote p
+div#pullquote pnone
 	{
 	margin: 0 0 1em 0;
 	}
 
 div#pullquote ul
     {
-    list-style-type: disk;
+    list-style-type: disc;
     font-size: 1.2em;
 	margin: 0 0 0 10px
     }
 
 ul#toolbox 
 	{
-	list-style-type: disk;
+	list-style-type: disc;
 	margin: 10px 0px 0px 20px;
 	font-size: 1.1em;
 	}
@@ -212,7 +212,7 @@ div#content #story_4 h1
     {
     color: #990000;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.8em;
+    font-size: 1.8em;none
     }
 	
 div#content #story_4 h2
