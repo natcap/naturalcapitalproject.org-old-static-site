@@ -102,31 +102,49 @@ div#home_mission {
 div#dl_notify{
 	font-family: Arial, Helvetica, sans-serif;
 	/*background-image:url("images/green-grad.jpg");*/
-	background-color: #9bbb58;
-	background-repeat: repeat-x;
 	height: 70px;
 }
 
 div#dl_notify a{
 	text-decoration: none;
-	color: #000;
+	color: #FFF;
 }
+
+
+table#dl_button.inactive {
+	background-image:url("images/invest_grad_inactive.jpg");
+	background-repeat: repeat-x;
+}	
+
+table#dl_button.active {
+	background-image:url("images/invest_grad_active.jpg");
+	background-repeat: repeat-x;
+}
+
+
+table#dl_button {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
 
 img#dl_arrow {
 	padding-top: 5px;
-	position:relative;
-	left: 285px;
 	float:left;
 }
 
 div#dl_notify a:hover{
-	color: #555555;
+	color: #AAA;
 }
 
 #dl_notify span.invest {
 	position: relative;
-	right: 37px;
 	top:5px;
+}
+
+#dl_notify h1.invest {
+	padding-right: 5px;
 }
 
 
