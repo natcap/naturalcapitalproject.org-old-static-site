@@ -423,12 +423,4 @@ a.anchor {
     width:15px;
 }
 
-p#download {
-	width:80%;
-}
-
-div#dl_button_container,
-div#dl_button_container ul {
-	float: right;
-}
 

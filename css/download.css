@@ -1,0 +1,57 @@
+p#download {
+	width:80%;
+}
+
+div#dl_button_container,
+div#dl_button_container ul {
+	float: right;
+}
+
+
+div#dl_notify{
+	font-family: Arial, Helvetica, sans-serif;
+	/*background-image:url("images/green-grad.jpg");*/
+	height: 70px;
+}
+
+div#dl_notify a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+table#dl_button.inactive {
+	background-image:url("../images/invest_grad_inactive.jpg");
+	background-repeat: repeat-x;
+}	
+
+table#dl_button.active {
+	background-image:url("../images/invest_grad_active.jpg");
+	background-repeat: repeat-x;
+}
+
+
+table#dl_button {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+
+img#dl_arrow {
+	padding-top: 5px;
+	float:left;
+}
+
+div#dl_notify a:hover{
+	color: #AAA;
+}
+
+#dl_notify span.invest_dl {
+	position: relative;
+	top:5px;
+}
+
+#dl_notify h1.invest_dl {
+	padding-right: 5px;
+}
