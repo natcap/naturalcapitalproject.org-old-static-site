@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Natural Capital Project - InVEST</title>
+<link href="css/ncp_main.css" rel="stylesheet" type="text/css" />
+<link href="css/download.css" rel="stylesheet" type="text/css" />
+<link href="navmenu.css" rel="stylesheet" type="text/css" />
+<link href="images/favicon.gif" rel="shortcut icon" type="image/gif" />
+<script type="text/javascript" src="scripts/dropmenu.js" language="javascript"></script>
+<script type="text/javascript" src="scripts/toggleButton.js" language="javascript"></script>
+<script type="text/javascript">
+	function changeButton(img_name,img_src) {
+		document[img_name].src=img_src; };
+</script>
+</head>
+<body>
+<div id="spacer"></div>
+<div id="container">
+  <div id="banner"><img src="images/secondary_banner.png" width="755" height="106" alt="Natural Capital Project" /> <a href="./"><i>Home</i></a> </div>
+  <!-- #BeginLibraryItem "/navmenu.lbi" -->
+  <!--#include virtual="inc/navLone.html" -->
+  <!-- #EndLibraryItem -->
+  <div id="breadcrumb"><a href="./">Home</a> &gt;&gt; <a href="toolbox.html">Toolbox</a> &gt;&gt; InVEST</div>
+  <div id="content">
+	
+	<div id="story_4">
+		<h1>Download InVEST 2.1</h1>
+		<div id="dl_button_container">
+			<a href="{{{{INVEST_DL_LOC}}}}" onmouseover="changeClass('dl_button')" onmouseout="changeClass('dl_button')">
+				<table id="dl_button" class="inactive">
+					<tr>
+						<td><img id="dl_arrow" src="images/dl-trans.png"></td>
+						<td><span class="invest_dl">Download</span>
+						<h1 class="invest_dl">InVEST {{{{INVEST_VERSION}}}}</h1></td>
+					</tr>
+			</table>
+			</a>
+			<span class="small">Version 2.1 release notes </span><br/>
+			<span class="small">Alternate downloads</span>
+		</div>
+		<p id="download">
+		InVEST enables decision-makers to assess the tradeoffs associated with alternative choices and to identify areas where investment in natural capital can enhance human development and conservation in terrestrial, freshwater, and marine ecosystems.
+		</p>
+			<h3>System Requirements</h3>
+			<ul id="sysreq">
+				<li>ArcGIS 9.3 (service pack 1 or 2) or ArcGIS 10 (service pack 1)</li>
+				<li>ArcGIS Spatial Analyst extension</li>
+				<li><a href="http://python.org/download/">Python</a>
+					<ul>
+					<li>Version 2.5 or higher required for ArcGIS 9.3</li>
+					<li>Version 2.6 or higher required for ArcGIS 10</li>
+					</ul></li>
+				<li>Other tools as necessary
+					<ul>
+						<li><a href="http://invest.ecoinformatics.org/gis-tools/downloads/GDAL.zip">Geospatial Data Abstraction Library (GDAL) Extension</a></li>
+						<li><a href="http://invest.ecoinformatics.org/gis-tools/downloads/MarinePythonExt_Py2.5_Arc9.3.zip">Marine Python Extensions for ArcGIS 9.3/Python 2.5</a></li>
+						<li><a href="http://invest.ecoinformatics.org/gis-tools/downloads/MarinePythonExt_Py2.6_Arc10.zip">Marine Python Extensions for ArcGIS 10/Python 2.6</a></li>
+						<li><a href="http://invest.ecoinformatics.org/gis-tools/downloads/Natcap_climate.tbx">Modified Hargreaves Referece Evapotranspiration Tool (ArcGIS 9.2)</a></li>
+						<li><a href="http://invest.ecoinformatics.org/gis-tools/downloads/Extraterrestrial%20radiation%20tool.xls">Excel tool to estimate Extraterrestrial Radiation</a></li>
+					</ul></li>
+			</ul>
+	</div>
+	
+	
+	
+	
+    
+  </div>
+  <div id="footer">&copy; Stanford University's Woods Institute for the Environment, University of Minnesota's Institute on the Environment, The Nature Conservancy, World Wildlife Fund.</div>
+</div>
+<!-- comment: inserting google analytics tracking code -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13097570-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- comment: end google analytics tracking code -->
+
+</body>
+</html>
+
