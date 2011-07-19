@@ -25,7 +25,7 @@
   <div id="content">
 	
 	<div id="story_4">
-		<h1>Download InVEST 2.1</h1>
+		<h1>Download InVEST {{{{INVEST_VERSION}}}}</h1>
 		<div id="dl_button_container">
 			<a href="{{{{INVEST_DL_LOC}}}}" onmouseover="changeClass('dl_button')" onmouseout="changeClass('dl_button')">
 				<table id="dl_button" class="inactive">
