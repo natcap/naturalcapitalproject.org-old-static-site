@@ -269,4 +269,37 @@ div#footer {
 	margin: 9px 0 0 0;
 }
 
+div#general_notify{
+	float: left;
+	height: 59px;
+	width: 502px;
+	background-repeat: repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+
+div#general_notify.inactive{
+	background-image: url('images/book_grad_inactive.jpg');
+}
+
+div#general_notify.active{
+	background-image: url('images/book_grad_active.jpg');
+}
+
+div#general_notify a {
+	color: white;
+	text-decoration: none;
+}
+
+div#general_notify a:hover {
+	color: #AAA;
+}
+
+div#general_notify h1 {
+	padding-top: 5px;
+}
+
+div.notify_container {
+	height: 59px;
+}
 

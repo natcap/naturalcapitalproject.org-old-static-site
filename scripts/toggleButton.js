@@ -2,14 +2,14 @@
  * @author James Douglass
  */
 
-function changeClass() {
-	var classname = document.getElementById("dl_button").className;
+function changeClass(ID) {
+	var classname = document.getElementById(ID).className;
 	//alert(classname);
 	
 	if (classname == "inactive"){
-		document.getElementById("dl_button").className = document.getElementById("dl_button").className.replace(/\binactive\b/, 'active');
+		document.getElementById(ID).className = document.getElementById(ID).className.replace(/\binactive\b/, 'active');
 	}
 	else {
-		document.getElementById("dl_button").className = document.getElementById("dl_button").className.replace(/\bactive\b/, 'inactive');
+		document.getElementById(ID).className = document.getElementById(ID).className.replace(/\bactive\b/, 'inactive');
 	}
 }
