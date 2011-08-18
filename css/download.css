@@ -74,6 +74,9 @@ div#dl_notify a:hover{
 	padding-right: 5px;
 }
 
+#content #story_4 {
+    margin-left: 10px;
+}
 
 #content #story_4 #sysreq li{
 	margin-left: 20px;
