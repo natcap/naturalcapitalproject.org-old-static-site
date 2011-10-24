@@ -400,6 +400,7 @@ div#footer
     background-color: #000000;
     color:     #FFFFFF;
     margin:    9px 0 0 0;
+    clear: all;
     }
     
 #mini_nav {
