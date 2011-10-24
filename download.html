@@ -5,7 +5,15 @@
 <title>Natural Capital Project - InVEST</title>
 <style type="text/css">
     div#dl_button_container ul {
-        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+    div#dl_button_container li {
+        margin-top: 5px;
+    }
+    
+    div#dl_button_container {
+        width: 250px;
     }
 </style>
 <link href="css/ncp_main.css" rel="stylesheet" type="text/css" />
@@ -55,6 +63,9 @@
 			</a>
 			<ul>
 			<li><a href="http://stanford.edu/~woodsp/natcap/invest/docs/21/">Online InVEST User's Guide</a></li>
+			<li><a href="http://www.stanford.edu/~rpsharp/InVEST_2.1.2_Full_Setup.exe">
+                InVEST 2.1.2</a> <em>Unstable release, only download if you know what you're doing</em>
+                </li>
 			</ul>
 		</div>
 		<p>Supporting
@@ -68,21 +79,17 @@
 			<ul id="sysreq">
 				<li>ArcGIS 9.3 (service pack 1 or 2) or ArcGIS 10 (service pack 1)</li>
 				<li>ArcGIS Spatial Analyst extension</li>
-				<li><a href="http://python.org/download/">Python</a>
+				<li>Other downloads if necessary
 					<ul>
-					<li>Version 2.5 or higher required for ArcGIS 9.3</li>
-					<li>Version 2.6 or higher required for ArcGIS 10</li>
-					</ul></li>
-				<li>Other tools as necessary
-					<ul>
-						<li><a href="GDAL.zip">Geospatial Data Abstraction Library (GDAL) Extension</a></li>
-						<li><a href="MarinePythonExt_Py2.5_Arc9.3.zip">Marine Python Extensions for ArcGIS 9.3/Python 2.5</a></li>
-						<li><a href="MarinePythonExt_Py2.6_Arc10.zip">Marine Python Extensions for ArcGIS 10/Python 2.6</a></li>
+						<li><a href="GDAL.zip">Geospatial Data Abstraction Library (GDAL) Extension</a> <em>Only required for pollination model.</em></li>
+						<li><em>Run "Marine Python Extension Check" in the InVEST 2.1 toolbox to see if you need to install one of these</em>
+						<ul>
+    						<li><a href="MarinePythonExt_Py2.5_Arc9.3.zip">Marine Python Extensions for ArcGIS 9.3/Python 2.5</a> </li>
+    						<li><a href="MarinePythonExt_Py2.6_Arc10.zip">Marine Python Extensions for ArcGIS 10/Python 2.6</a></li>
+						</ul></li>
 						<li><a href="Natcap_climate.tbx">Modified Hargreaves Referece Evapotranspiration Tool (ArcGIS 9.2)</a></li>
 						<li><a href="Extraterrestrial%20radiation%20tool.xls">Excel tool to estimate Extraterrestrial Radiation</a></li>
-						<li><a href="http://www.stanford.edu/~rpsharp/InVEST_2.1.2_Full_Setup.exe" onmouseover="changeClass('dl_button')" onmouseout="changeClass('dl_button')" onClick="_gaq.push(['_trackEvent', 'Downloads', 'Download InVEST' ]);">
-				InVEST 2.1.2 (only download if you know what you're doing)
-				</a></li>
+						
 					</ul></li>
 			</ul>
 	</div>
