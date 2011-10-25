@@ -1,118 +1,134 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Natural Capital Project - InVEST</title>
-<style type="text/css">
-    div#dl_button_container ul {
-        margin-left: 0px;
-    }
-    
-    div#dl_button_container li {
-        margin-top: 5px;
-    }
-    
-    div#dl_button_container {
-        width: 220px;
-    }
-    
-    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title>Natural Capital Project - InVEST</title>
+        <style type="text/css">  div#dl_button_container ul {
+                margin-left: 0px;
+            }
+            div#dl_button_container li {
+                margin-top: 5px;
+            }
+            div#dl_button_container {
+                width: 220px;
+            }
+
 </style>
-<link href="css/ncp_main.css" rel="stylesheet" type="text/css" />
-<link href="css/download.css" rel="stylesheet" type="text/css" />
-<link href="navmenu.css" rel="stylesheet" type="text/css" />
-<link href="images/favicon.gif" rel="shortcut icon" type="image/gif" />
-<script type="text/javascript" src="scripts/dropmenu.js" language="javascript"></script>
-<script type="text/javascript" src="scripts/toggleButton.js" language="javascript"></script>
-<script type="text/javascript">
-	function changeButton(img_name,img_src) {
-		document[img_name].src=img_src; };
+        <link href="css/ncp_main.css" rel="stylesheet" type="text/css" />
+        <link href="css/download.css" rel="stylesheet" type="text/css" />
+        <link href="navmenu.css" rel="stylesheet" type="text/css" />
+        <link href="images/favicon.gif" rel="shortcut icon" type="image/gif" />
+        <script type="text/javascript" src="scripts/dropmenu.js" language="javascript"></script>
+        <script type="text/javascript" src="scripts/toggleButton.js" language="javascript"></script>
+        <script type="text/javascript">function changeButton(img_name, img_src) {
+                document[img_name].src = img_src;
+            };</script>
+        <script type="text/javascript">var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-24933546-1']);
+            _gaq.push(['_trackPageview']); (function() {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
 </script>
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-24933546-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-</head>
-<body>
-<div id="spacer"></div>
-<div id="container">
-  <div id="banner"><img src="images/secondary_banner.png" width="755" height="106" alt="Natural Capital Project" /> <a href="./"><i>Home</i></a> </div>
-  <!-- #BeginLibraryItem "/navmenu.lbi" -->
-  <!--#include virtual="inc/navLone.html" -->
-  <!-- #EndLibraryItem -->
-  <div id="breadcrumb"><a href="./">Home</a> &gt;&gt; <a href="toolbox.html">Toolbox</a> &gt;&gt; InVEST</div>
-  <div id="content">
-	
-	<div id="story_4">
-		<h1>Download InVEST</h1>
-		<div id="dl_button_container">
-			<a href="http://www.stanford.edu/~rpsharp/InVEST_2.1.3_Full_Setup.exe" onmouseover="changeClass('dl_button')" onmouseout="changeClass('dl_button')" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/invest']">
-				<table id="dl_button" class="inactive">
-					<tr>
-						<td><img id="dl_arrow" src="images/dl-trans.png"></td>
-						<td><span class="invest_dl">Download</span>
-						<h1 class="invest_dl">InVEST 2.1.3</h1></td>
-					</tr>
-			</table>
-			</a>
-			<ul>
-			<li><a href="http://stanford.edu/~woodsp/natcap/invest/docs/21/">Online InVEST User's Guide</a></li>
-			     <li><a href="http://www.stanford.edu/~rpsharp/InVEST_2.1.3_ModelsOnly_Setup.exe">
-                InVEST 2.1.3 Models only</a>. 
-                </li>
-                <li><a href="http://www.stanford.edu/~rpsharp/InVEST_2.1_beta-Setup.exe">
-                InVEST 2.1 beta</a>. 
-                </li>
-			</ul>
-		</div>
-		<p>Supporting
-		    documents including old documentation, data source references, and InVEST
-		    presentations are temporarily hosted at <a href="http://invest.ecoinformatics.org/tool-documentation">invest.ecoinformatics.org/tool-documentation</a>
-		    as we transition to an interactive and more functional website.
-		    </p>
-		    <p>A user support forum (registration required) is hosted at <a href="http://invest.ecoinformatics.org/discuss">invest.ecoinformatics.org/discuss</a>.
-		        The forum will migrate directly to this site in the coming months.</p>
-			<h3>System Requirements</h3>
-			<ul id="sysreq">
-				<li>ArcGIS 9.3 (service pack 1 or 2) or ArcGIS 10 (service pack 1)</li>
-				<li>ArcGIS Spatial Analyst extension</li>
-				<li>Other downloads if necessary
-					<ul>
-						<li><a href="GDAL.zip">Geospatial Data Abstraction Library (GDAL) Extension</a> <em>Only required for pollination model.</em></li>
-						<li><em>Run "Marine Python Extension Check" in the InVEST 2.1 toolbox to see if you need to install one of these</em>
-						<ul>
-    						<li><a href="MarinePythonExt_Py2.5_Arc9.3.zip">Marine Python Extensions for ArcGIS 9.3/Python 2.5</a> </li>
-    						<li><a href="MarinePythonExt_Py2.6_Arc10.zip">Marine Python Extensions for ArcGIS 10/Python 2.6</a></li>
-						</ul></li>
-						<li><a href="Natcap_climate.tbx">Modified Hargreaves Referece Evapotranspiration Tool (ArcGIS 9.2)</a></li>
-						<li><a href="Extraterrestrial%20radiation%20tool.xls">Excel tool to estimate Extraterrestrial Radiation</a></li>
-						
-					</ul></li>
-			</ul>
-	</div>
-  </div>
-  <div id="footer">&copy; Stanford University's Woods Institute for the Environment, University of Minnesota's Institute on the Environment, The Nature Conservancy, World Wildlife Fund.</div>
-</div>
-<!-- comment: inserting google analytics tracking code -->
-<script type="text/javascript">
+    </head>
+    <body>
+        <div id="spacer"></div>
+        <div id="container">
+            <div id="banner"><img src="images/secondary_banner.png" width="755" height="106" alt="Natural Capital Project" /><a href="./"><i>Home</i></a>
+            </div>
+            <!-- #BeginLibraryItem "/navmenu.lbi" -->
+            <!--#include virtual="inc/navLone.html" -->
+            <!-- #EndLibraryItem -->
+            <div id="breadcrumb">
+                <a href="./">Home</a> &gt;&gt; <a href="toolbox.html">Toolbox</a> &gt;&gt; InVEST
+            </div>
+            <div id="content">
+                <div id="story_4">
+                    <h1>Download InVEST</h1>
+                    <div id="dl_button_container">
+                        <a href="http://www.stanford.edu/~rpsharp/InVEST_2.1.3_Full_Setup.exe" onmouseover="changeClass('dl_button')" onmouseout="changeClass('dl_button')" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/invest']">
+                        <table id="dl_button" class="inactive">
+                            <tr>
+                                <td><img id="dl_arrow" src="images/dl-trans.png"></td>
+                                <td><span class="invest_dl">Download</span><h1 class="invest_dl">InVEST 2.1.3</h1></td>
+                            </tr>
+                        </table> </a>
+                        <ul>
+                            <li>
+                                <a href="http://stanford.edu/~woodsp/natcap/invest/docs/21/">Online InVEST User's Guide</a>
+                            </li>
+                            <li>
+                                <a href="http://www.stanford.edu/~rpsharp/InVEST_2.1.3_ModelsOnly_Setup.exe"> InVEST 2.1.3 Models only</a>.
+                            </li>
+                            <li>
+                                <a href="http://www.stanford.edu/~rpsharp/InVEST_2.1_beta-Setup.exe"> InVEST 2.1 beta</a>.
+                            </li>
+                        </ul>
+                    </div>
+                    <p>
+                        Supporting
+                        documents including old documentation, data source references, and InVEST
+                        presentations are temporarily hosted at <a href="http://invest.ecoinformatics.org/tool-documentation">invest.ecoinformatics.org/tool-documentation</a>
+                        as we transition to an interactive and more functional website.
+                    </p>
+                    <p>
+                        A user support forum (registration required) is hosted at <a href="http://invest.ecoinformatics.org/discuss">invest.ecoinformatics.org/discuss</a>.
+                        The forum will migrate directly to this site in the coming months.
+                    </p>
+                    <h3>System Requirements</h3>
+                    <ul id="sysreq">
+                        <li>
+                            ArcGIS 9.3 (service pack 1 or 2) or ArcGIS 10 (service pack 1)
+                        </li>
+                        <li>
+                            ArcGIS Spatial Analyst extension
+                        </li>
+                        <li>
+                            Other downloads if necessary
+                            <ul>
+                                <li>
+                                    <a href="GDAL.zip">Geospatial Data Abstraction Library (GDAL) Extension</a><em>Only required for pollination model.</em>
+                                </li>
+                                <li>
+                                    <em>Run "Marine Python Extension Check" in the InVEST 2.1 toolbox to see if you need to install one of these</em>
+                                    <ul>
+                                        <li>
+                                            <a href="MarinePythonExt_Py2.5_Arc9.3.zip">Marine Python Extensions for ArcGIS 9.3/Python 2.5</a>
+                                        </li>
+                                        <li>
+                                            <a href="MarinePythonExt_Py2.6_Arc10.zip">Marine Python Extensions for ArcGIS 10/Python 2.6</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="Natcap_climate.tbx">Modified Hargreaves Referece Evapotranspiration Tool (ArcGIS 9.2)</a>
+                                </li>
+                                <li>
+                                    <a href="Extraterrestrial%20radiation%20tool.xls">Excel tool to estimate Extraterrestrial Radiation</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="footer">
+                &copy; Stanford University's Woods Institute for the Environment, University of Minnesota's Institute on the Environment, The Nature Conservancy, World Wildlife Fund.
+            </div>
+        </div>
+        <!-- comment: inserting google analytics tracking code -->
+        <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));        </script>
+        <script type="text/javascript">
 try {
 var pageTracker = _gat._getTracker("UA-13097570-1");
 pageTracker._trackPageview();
-} catch(err) {}</script>
-<!-- comment: end google analytics tracking code -->
-
-</body>
+} catch(err) {}
+        </script>
+        <!-- comment: end google analytics tracking code -->
+    </body>
 </html>
-
