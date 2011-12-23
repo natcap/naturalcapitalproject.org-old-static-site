@@ -9,17 +9,44 @@ div#dl_button_container ul {
 	color: black;
 }
 
+div#dl_button_container li {
+    margin-top: 5px;
+}
+div#dl_button_container {
+    width: 200px;
+}
+h1, h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+div#dl_button_container h2 {
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
 div#dl_button_container {
 	border-left: 1px dotted #ddd;
 	padding-left: 20px;
 	margin-left: 20px;
-	height: 150px;
 }
 
 div#dl_button_container span.small {
 	padding-top: 5px;
 	font-size: 75%;
 	float: right;
+}
+
+div#dl_button_container ul {
+	float: left;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+ul li {
+	margin-bottom: 3px;
 }
 
 div#dl_notify{
@@ -54,8 +81,6 @@ table#dl_button {
 	width: 100%;
 
 }
-
-
 img#dl_arrow {
 	padding-top: 5px;
 	float:left;
