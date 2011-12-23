@@ -41,13 +41,10 @@ div#dl_button_container ul {
 	float: left;
 }
 
-ul {
-	padding-left: 20px;
-}
-
 ul li {
 	margin-bottom: 3px;
 }
+
 
 div#dl_notify{
 	font-family: Arial, Helvetica, sans-serif;
