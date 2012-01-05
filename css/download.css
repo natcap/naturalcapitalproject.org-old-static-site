@@ -20,6 +20,11 @@ h1, h2 {
     margin-top: 10px;
 }
 
+div#home_mission h1,
+div#home_mission h2 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
 div#dl_button_container h2 {
     margin-bottom: 1px;
     margin-top: 1px;
