@@ -1,3 +1,8 @@
 Options +Includes
 AddType text/html .html
 AddHandler server-parsed .html
+Redirect /home01.html /index.html
+Redirect /home02.html /index.html
+Redirect /home03.html /index.html
+Redirect /home04.html /index.html
+Redirect /index.php /index.html
