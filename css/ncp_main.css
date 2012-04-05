@@ -434,3 +434,7 @@ a.anchor {
 div#partner_banner {
 
 }
+
+div#social a {
+    padding: 10px;
+}
