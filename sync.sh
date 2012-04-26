@@ -1,3 +1,4 @@
+echo "Fix this so it checks changes first!"
 #!/bin/bash
 
 echo 'Make all files readable'
