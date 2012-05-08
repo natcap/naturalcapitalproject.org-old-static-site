@@ -13,4 +13,4 @@ find ./ -type d -print0 | xargs -0 chmod 711
 rsync -avuP --exclude=".hg" ./. naturalcapitalproje@naturalcapitalproject.org:public_html
 
 #This will pull newer files from the website to the current directory
-rsync -avuP naturalcapitalproje@naturalcapitalproject.org:public_html ./.
+rsync -avuP naturalcapitalproje@naturalcapitalproject.org:public_html/* ./.
