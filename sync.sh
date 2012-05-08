@@ -9,4 +9,8 @@ find ./ -name "*.sh" -print0 | xargs -0 chmod u+x
 echo 'Make all directories executable'
 find ./ -type d -print0 | xargs -0 chmod 711
 
-rsync -avP --delete --exclude=".hg" --delete-excluded ./. naturalcapitalproje@naturalcapitalproject.org:public_html
+#This will push newer files to the website from current directory.
+rsync -avuP --exclude=".hg" ./. naturalcapitalproje@naturalcapitalproject.org:public_html
+
+#This will pull newer files from the website to the current directory
+rsync -avuP naturalcapitalproje@naturalcapitalproject.org:public_html ./.
