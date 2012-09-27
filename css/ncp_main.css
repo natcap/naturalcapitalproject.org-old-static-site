@@ -5,7 +5,23 @@
     margin:  0;
     padding: 0;
     }
+	
+a:visited {
+	color: rgb(0,74,114);
+	}
 
+a:link {
+	color: rgb(0,123,191);
+	}
+
+a:hover {
+	color: rgb(25,173,225);
+	}
+
+a { 
+	text-decoration:none;
+	}
+	
 body
     {
     background-color: #000000;
