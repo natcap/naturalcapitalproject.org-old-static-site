@@ -114,3 +114,29 @@ div#dl_notify a:hover{
 	padding-right: 5px;
 }
 
+#dl_button_container #doc_link{
+    width: 100%;
+    background-color: blue;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    text-decoration: none;
+	background-image:url("../images/book_grad_inactive.jpg");
+    background-repeat: repeat-x;
+}
+
+#dl_button_container #doc_link:hover {
+	background-image:url("../images/book_grad_active.jpg");
+}
+
+#dl_button_container #doc_link img {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+#dl_button_container #doc_link span{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
