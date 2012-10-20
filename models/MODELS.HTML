@@ -9,6 +9,11 @@
 <link href="../images/favicon.gif" rel="shortcut icon" type="image/gif" />
 <script type="text/javascript" src="../scripts/dropmenu.js" language="javascript"></script>
 <script type="text/javascript" src="../scripts/poste.js" language="javascript"></script>
+<script type="text/javascript" src="../scripts/dropmenu.js" language="javascript"></script>
+<script type="text/javascript">
+	function changeButton(img_name,img_src) {
+		document[img_name].src=img_src; };
+</script>
 </head>
 
 <body>
@@ -62,8 +67,11 @@
 <h1>InVEST Models</h1>
 <br />
 
-<p> <div class="photo_right"><img src="../images/pubs_01.jpg" alt="Cape Cod" height="200" width="300" /></div>Integrated Valuation of Environmental Services and Tradeoffs
-(InVEST) is a free and open-source software suite developed by the Natural Capital Project. It maps and values the goods and services from nature that contribute to sustaining and fulfilling human well being.</p>
+<p><a href="../download.html" onmouseover="changeButton('dl-button','../images/dl_invest_active.png')" onmouseout="changeButton('dl-button','../images/dl_invest_inactive.png')">
+	  	<div class="photo_right">
+      	  <img name="dl-button" id="dl_invest" src="../images/dl_invest_inactive.png" ><br/>
+      	</div> </a>Integrated Valuation of Environmental Services and Tradeoffs
+(InVEST) is a free and open-source software suite developed by the Natural Capital Project. It maps and values the goods and services from nature that contribute to sustaining and fulfilling human life.</p>
 <br />
 
 <h2>Models</h2>
@@ -71,7 +79,7 @@
 <p><b><a href="biodiversity.HTML">Biodiversity</a></b> - Models and maps habitat quality and rarity</p>
 <p><b><a href="carbon.html">Carbon</a></b> - Models and values carbon storage and sequestration on land</p>
 <p><b><a href="coastal_protection.html">Coastal Protection</a></b> - Values the bennefits of nearshore habitats for coastal protection</p>
-<p><b><a href="coastal_vulnerability.html">Coastal Vulnerability</a></b> - Asesses the risk of coastal areas from storm waves and surge</p>
+<p><b><a href="coastal_vulnerability.html">Coastal Vulnerability</a></b> - Asesses the risk of coastal areas from storms</p>
 <p><b><a href="crop_pollination.html">Crop Pollination</a></b> - Assesses the value of wild bees to agriculture across a landscape</p>
 <p><b><a href="habitat_risk.html">Habitat Risk Assessment</a></b> - Evaluates the risk to coastal marine habitats from anthropogenic factors</p>
 <p><b><a href="timber.html">Managed Timber Production</a></b> - Values timber harvest</p>
