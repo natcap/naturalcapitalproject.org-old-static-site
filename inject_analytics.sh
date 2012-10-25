@@ -1,4 +1,4 @@
-#!/bin/sh -e
+#!/bin/sh
 # inject-google-analytics
 
 TRACKER_ID="UA-24933546-1"
