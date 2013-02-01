@@ -41,13 +41,13 @@
             </div>
             <div id="content">
                 <div id="story_4">
-                    <h1>Download InVEST 2.4.4</h1>
+                    <h1>Download InVEST 2.4.5</h1>
                     <div id="dl_button_container">
-                        <a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/InVEST_2.4.4_Setup.exe" onmouseover="changeClass('dl_button')" onmouseout="changeClass('dl_button')" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/invest2.4.4'])">
+                        <a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/InVEST_2.4.5_Setup.exe" onmouseover="changeClass('dl_button')" onmouseout="changeClass('dl_button')" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/invest2.4.5'])">
                         <table id="dl_button" class="inactive">
                             <tr>
                                 <td><img id="dl_arrow" src="images/dl-trans.png"></td>
-                                <td><span class="invest_dl">Download</span><h2 class="invest_dl">InVEST 2.4.4</h2>
+                                <td><span class="invest_dl">Download</span><h2 class="invest_dl">InVEST 2.4.5</h2>
                                 <span class="invest_dl">45 MB</span></td>
                             </tr>
                         </table></a>
@@ -60,52 +60,40 @@
                             </table>
                         </a>
                         <ul>
-                        <li><em><a href="http://ncp-dev.stanford.edu/~dataportal/invest-data/2.4.4">Individual InVEST demo datasets</a>.</em></li>
+                        <li><em><a href="http://ncp-dev.stanford.edu/~dataportal/invest-data/2.4.5">Individual InVEST demo datasets</a>.</em></li>
                         <li><em><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases">Older InVEST versions</a>.</em></li>
 			<li><em><a href="rios_download.html">Download Water Funds Prioritization Tool</a></em></li>
                         </ul>
                     </div>
-                    <p>InVEST 2.4.4 was released on October 24, 2012. 
-                    <p>InVEST 2.4.0 is a major release which releases two additional beta versions of the
-InVEST models in the InVEST 3.0 framework.  InVEST 2.4.1 was released shortly after InVEST 2.4.0 to fix some compatibility issues relating to ArcGIS 9.3.  InVEST 2.4.2 was released to fix a path issue with the included ArcMap document and includes some more memory-efficient processing for Biodiversity 3.0 Beta.  InVEST 2.4.3 was released to fix several minor bugs in Carbon Biophysical 3.0 Beta, Hydropower 3.0 Beta, and adds some new features to the InVEST user interface and installer.  InVEST 2.4.4 was released to fix some memory issues with Carbon Valuation 3.0 Beta.  Additionally, this release 
-introduces start menu shortcuts for all available InVEST 3.0 beta models.  
-Existing InVEST 2.x models can still be found in the included Arc toolbox.</p>
+                    <p>InVEST is a family of ecysostem service evaluation tools.  Historically, the Natural Capital Project developed these models in the ArcGIS computing platform.  Although this allowed us to prototype tools quickly, we found a dependancy on the ArcGIS framework to be a limiting factor in collaborating with a wide audience of potential users as well as a crutch in the development of advanced functionality of the toolset.</p>
 
-		    <p>Existing InVEST models migrated to the 3.0
-		    framework in this release include:</p>
+		    <p>Version 2.4.5 was released on January 31, 2013 and contains both ArcGIS and gis-independant software.  The following table illustrates which models are available in which platform.</p>
 
-		    <ul>
-		      <li>Biodiversity 3.0 beta
-			<ul><li>Minor bug fixes and usability enhancements</li></ul>
-		      </li>
-		      <li>Overlap Analysis 3.0 Beta
-              <ul><li>Minor bug fixes and usability enhancements.</li>
-                  <li>Split into two separate tools to enable the use of management zones.</li>
-			  </ul>
-			</li>
-		    </ul>
+		    <table class="model_table">
+		      <tr><th>Model</th><th>"3.0" Standalone</th><th>ArcGIS 9.3/10.0</th></tr>
+		      <tr><td class="model_name">Crop Pollination</td><td class="choice">x</td><td class="choice">x (depricated)</td></tr>
+		      <tr><td class="model_name">Managed Timber Production</td><td class="choice">x</td><td class="choice">x</td></tr>
+		      <tr><td class="model_name">Sediment Retention</td><td class="choice"></td><td class="choice">x</td></tr>
+		      <tr><td class="model_name">Water Purification (nutrient)</td><td class="choice"></td><td class="choice">x</td></tr>
+		      <tr><td class="model_name">Hydropower Production</td><td class="choice">x</td><td class="choice">x</td></tr>
+		      <tr><td class="model_name">Carbon Storage and Sequestration</td><td class="choice">x</td><td class="choice">x (depricated)</td></tr>
+		      <tr><td class="model_name">Biodiversity</td><td class="choice">x</td><td class="choice">x (depricated)</td></tr>
+		      <tr><td class="model_name">Marine Water Quality</td><td class="choice">x</td><td class="choice"></td></tr>
+		      <tr><td class="model_name">Habitat Risk Assessment</td><td class="choice"></td><td class="choice">x</td></tr>
+		      <tr><td class="model_name">Overlap Analysis</td><td class="choice">x</td><td class="choice">x</td></tr>
+		      <tr><td class="model_name">Aesthetic Quality</td><td class="choice"></td><td class="choice">x</td></tr>
+		      <tr><td class="model_name">Marine Fish Aquaculture</td><td class="choice">x</td><td class="choice">x</td></tr>
+		      <tr><td class="model_name">Erosion Protection</td><td class="choice"></td><td class="choice">x</td></tr>
+		      <tr><td class="model_name">Coastal Vulnerability</td><td class="choice">x</td><td class="choice">x</td></tr>
+		      <tr><td class="model_name">Wave Energy</td><td class="choice">x</td><td class="choice">x (depricated)</td></tr>
+		    </table>
 
-		    <p>Updates to existing ArcGIS models:</p>
-		    <ul>
-		      <li>Coastal vulnerability</li>
-		      <li>Coastal protection (erosion protection)</li>
-		    </ul>
 
-		    <p>Additionally there are a handful of other minor
-		    fixes and feature enhancements since the previous
-		    release:</p>
-            <ul>
-                <li>Biodiversity 3.0 Beta now uses is now significantly more memory-efficient for much of its processing.  This will affect users with very large input rasters.</li>
-                <li>InVEST 3.0 Beta standalones can now be launched from the Windows Start Menu (Start Menu -> All Programs -> InVEST 2.4.3)</li>
-                <li>Big fixes for the calculation of raster statistics</li>
-                <li>InVEST 3.0 Wave Energy no longer requires an AOI for global runs, but it does encounter memory issues on machines with less than 4GB of RAM.  This will be fixed in a minor release.</li>
-                <li>Minor fixes to several chapters in the user's guide</li>
-                <li>Harvest maps are no longer required inputs to the 3.0 Beta Carbon model</li>
-                <li>Improved installer allows user to remove InVEST from Windows Add/Remove Programs</li>
-                <li>Other minor bug fixes and runtime performance tweaks in the 3.0 framework</li>
-		    </ul>
-                    
                     <h2>System Requirements</h2>
+
+		    <p>The standalone tools have no system requirements other than a computer running a Windows operating system.  Generally the models will benefit from a high-end machine (large amounts of RAM and processing power), but is not a requirement.</p>
+
+		    <p>The ArcGIS based tools have the following requirements
                     <ul id="sysreq">
                         <li>
                             ArcGIS 9.3 (service pack 1 or higher) or ArcGIS 10 (service pack 1 or higher)
@@ -113,10 +101,23 @@ Existing InVEST 2.x models can still be found in the included Arc toolbox.</p>
                         <li>
                             ArcGIS Spatial Analyst extension
                         </li>
-                    </ul>
+	                <li>
+	                  <a href="http://ncp-dev.stanford.edu/~dataportal/invest-data/GDAL.zip">Geospatial Data Abstraction Library (GDAL) Extension</a> <em>Only required for the ArcGIS pollination model.</em>
+	                </li>
+	                <li>
+	                  <a href="http://ncp-dev.stanford.edu/~dataportal/invest-data/MarinePythonExt_Py2.5_Arc9.3.zip">Marine Python Extensions for ArcGIS 9.3/Python 2.5</a> <em>Only required for ArcGIS marine models.</em>
+	                </li>
+	                <li>
+	                  <a href="http://ncp-dev.stanford.edu/~dataportal/invest-data/MarinePythonExt_Py2.6_Arc10.zip">Marine Python Extensions for ArcGIS 10/Python 2.6</a> <em>Only required for ArcGIS marine models.</em>
+	                </li>
+	                <li>
+	                  <a href="http://ncp-dev.stanford.edu/~dataportal/invest-data/MarinePythonExt_Py2.7_Arc10.1.zip">Marine Python Extensions for ArcGIS 10.1/Python 2.7</a> <em>Only required for ArcGIS marine models.</em>
+			</li>	                          
+		    </ul>
+
                     <h2>User Support</h2>
                     <p>A user's guide is included with InVEST and is also
-                    available online here: <a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/2_4_4">Online InVEST 2.4.4 User's Guide</a></p>
+                    available online here: <a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/2_4_5">Online InVEST 2.4.5 User's Guide</a></p>
                     <p>
                         Users are encouraged to submit bug reports directly to our
                         <a href="http://code.google.com/p/invest-natcap/issues/list">issue tracker</a>. 
@@ -124,41 +125,26 @@ Existing InVEST 2.x models can still be found in the included Arc toolbox.</p>
                         <strong><code>richsharp@stanford.edu</code></strong>.  Additionally there is an InVEST user email list at <a href="https://mailman.stanford.edu/mailman/listinfo/invest-users">invest-users@lists.stanford.edu</a>, please consider joining to receive update notices and connect with other InVEST users. When submitting a bug report please include the following
                         information:
                         <ul id="sysreq">
-                        <li>InVEST model you're having trouble with.</li>
-                        <li>Explicit error message or behavior (a copy and
-                        paste of the log output is helpful).</li>
-                        <li>If possible, a screenshot of the state of your
-                        InVEST toolset when you get the error.</li>
-                        <li>ArcGIS version and service pack number.</li></ul>
-                        
+                          <li>The InVEST model that's failing.</li>
+                          <li>Explicit error message or behavior (a copy and
+                            paste of the log output is helpful).</li>
+                          <li>If possible, a screenshot of the state of your
+                            InVEST toolset when you get the error.</li>
+                          <li>ArcGIS version and service pack number.</li>
+			  <li>If we cannot easily resolve your error, we may need your original datasets to recreate the error on our end.</li>
+			</ul>
                     </p>
                     
                     <h2>Supporting Downloads</h2>
-                    <p>These downloads are required for some models.  Refer to
+                    <p>These downloads are required for some old models.  Refer to
                     the user's guide for a particular model for more information.</p>
-                    <ul id="sysreq">
-	                     <li>
-	                         <a href="http://ncp-dev.stanford.edu/~dataportal/invest-data/GDAL.zip">Geospatial Data Abstraction Library (GDAL) Extension</a> <em>Only required for pollination model.</em>
-	                     </li>
-	                      <li>
-	                          Run "Marine Python Extension Check" in the InVEST 2.4 toolbox to see if you need to install one of these:
-	                          <ul>
-	                              <li>
-	                                  <a href="http://ncp-dev.stanford.edu/~dataportal/invest-data/MarinePythonExt_Py2.5_Arc9.3.zip">Marine Python Extensions for ArcGIS 9.3/Python 2.5</a>
-	                              </li>
-	                              <li>
-	                                  <a href="http://ncp-dev.stanford.edu/~dataportal/invest-data/MarinePythonExt_Py2.6_Arc10.zip">Marine Python Extensions for ArcGIS 10/Python 2.6</a>
-	                              </li>
-	                              <li>
-	                                  <a href="http://ncp-dev.stanford.edu/~dataportal/invest-data/MarinePythonExt_Py2.7_Arc10.1.zip">Marine Python Extensions for ArcGIS 10.1/Python 2.7</a>
-	                              </li>	                          </ul>
-	                      </li>
-	                      <li>
-	                          <a href="Natcap_climate.tbx">Modified Hargreaves Referece Evapotranspiration Tool (ArcGIS 9.3)</a>
-	                      </li>
-	                      <li>
-	                          <a href="Extraterrestrial%20radiation%20tool.xls">Excel tool to estimate Extraterrestrial Radiation</a>
-	                      </li>
+		    <ul>
+	              <li>
+	                <a href="Natcap_climate.tbx">Modified Hargreaves Referece Evapotranspiration Tool (ArcGIS 9.3)</a>
+	              </li>
+	              <li>
+	                <a href="Extraterrestrial%20radiation%20tool.xls">Excel tool to estimate Extraterrestrial Radiation</a>
+	              </li>
                     </ul>
                 </div>
             </div>
