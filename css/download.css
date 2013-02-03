@@ -83,6 +83,25 @@ table#dl_button {
 	width: 100%;
 
 }
+
+table.model_table {
+    border: 1px solid black;
+}
+
+table.model_table th {
+    border-bottom: 1px solid black;
+}
+
+table.model_table td.model_name {
+    font-weight: bold;
+    text-align: right;
+}
+
+table.model_table td.choice {
+    text-align: center;
+}
+
+
 img#dl_arrow {
 	padding-top: 5px;
 	float:left;
