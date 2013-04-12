@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Natural Capital Project - Home</title>
+<link href="primary.css" rel="stylesheet" type="text/css" />
+<link href="css/ncp_main.css" rel="stylesheet" type="text/css" />
+<link href="navmenu.css" rel="stylesheet" type="text/css" />
+<link href="css/download.css" rel=stylesheet type="text/css" />
+<link href="images/favicon.gif" rel="shortcut icon" type="image/gif" />
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+
+sfHover = function() {
+	var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+//--><!]]></script>
+<script type="text/javascript" src="scripts/toggleButton.js"></script>
+<style type="text/css">
+<!--
+.style2 {font-family: Arial, Helvetica, sans-serif}
+-->
+</style>
+</head>
+<body>
+<div id="spacer"></div>
+<div id="containerhome">
+  <div id="banner">
+<img src="images/banner.png" width="755" height="96" alt="Natural Capital Project" /> <a href="./"><i>Home</i></a> </div>
+<!-- #BeginLibraryItem "/navmenu.lbi" -->
+<!--#include virtual="inc/navLone.html" -->
+<!-- #EndLibraryItem -->
+<div id="breadcrumb">Home</div>
+  <div id="content">
+  <div id="home_mission">
+<div id="general_notify" class="inactive" onmouseover="changeClass('general_notify')" onmouseout="changeClass('general_notify')">
+<<<<<<< local
+	<a href="InVEST_trainings.html" >
+=======
+	<a href="http://events.r20.constantcontact.com/register/event?oeidk=a07e7176gzva51b153f&llr=gszjijjab" >
+>>>>>>> other
+		<div class="notify_container">
+<<<<<<< local
+			<h1>Vermont InVEST Training</h1></span> <span class="small">Register Now! Reduced rates until May 1st</span>
+=======
+			<h1>Vermont InVEST Training</h1></span> <span class="small">Apply now - registration fees increase May 1st</span>
+		</div>
+	</a>
+>>>>>>> other
+		</div>
+	</a>
+</div>
+	
+  	
+<div id="dl_notify">
+	<a href="download.html" onmouseover="changeClass('dl_button')" onmouseout="changeClass('dl_button')">
+		<table id="dl_button" class="inactive">
+			<tr>
+			<td><img id="dl_arrow" src="images/dl-trans.png"></td>
+			<td><span class="invest_dl"></span>
+			  Download
+			<h1 class="invest_dl">InVEST</h1></td>
+			</tr>
+		</table>
+	</a>
+</div> 
+</div>
+    <div id="storyhome">
+    <div id="home_teaser"><img src="images/home19.jpg" alt="InVEST output map of the Amazon basin" width="755" height="250" /></div>
+   <div id="tools_teaser_4">
+    <div id="home_background_4" class="translucent">
+      <div id="home_teaser_text_4">
+<p align="center">"Natural Capital" = Earth's lands, waters and their biodiversity.</p>
+      </div>
+      </div>
+      </div>
+   <div id="sites_teaser_4">
+
+      <div id="home_teaser_text_4">
+<p align="center">"Ecosystem Services" = The stream of vital benefits flowing from natural capital to people.</p>
+      </div>
+
+      </div>
+   <div id="impact_teaser_4">
+
+      <div id="home_teaser_text_4">
+<p align="center">InVEST is the leading tool for incorporating natural capital into decisions.</p>
+          </div>
+          </div>
+    </div>
+    <div style="clear:both;height:45px"></div>
+    </div>
+       <div style="clear:both;height:35px"></div> 
+<a name="OUP" id="OUP"></a>
+<div id="partner_banner">
+    <a href="http://woods.stanford.edu/"><img src="images/Woods.jpg" /></a><a href="http://www.worldwildlife.org/"><img src="images/WWF.jpg" /></a><a href="http://www.nature.org/"><img src="images/TNC.jpg" /></a><a href="http://environment.umn.edu/"><img src="images/IoE.jpg" /></a></div>
+  <div id="footer">&copy; Stanford University's Woods Institute for the Environment, University of Minnesota's Institute on the Environment, The Nature Conservancy, World Wildlife Fund.</div>
+</div>
+<!-- comment: inserting google analytics tracking code -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13097570-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- comment: end google analytics tracking code -->
+
+<script type="text/javascript"> var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); </script> <script type="text/javascript"> var pageTracker = _gat._getTracker('UA-24933546-1'); pageTracker._trackPageview(); </script></body>
+</html>
