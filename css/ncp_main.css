@@ -46,7 +46,7 @@ div#container
 	
 div#content ul {
     padding-left: 20px;
-    font-size: 1.1em;
+    font-size: 13px;
 }
 
 div#containerhome
@@ -83,7 +83,7 @@ div#content h2
     {
     color: #990000;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
+    font-size: 13px;
     }
 	
 div#content h6
@@ -187,7 +187,7 @@ ul#toolbox
 	{
 	list-style-type: disc;
 	margin: 10px 0px 0px 20px;
-	font-size: 1.1em;
+	font-size: 13px;
 	}
 
 div#content #story 
@@ -259,7 +259,7 @@ div#content #storyhome h2
     {
     color: #990000;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
+    font-size: 13px;
     }
 
 #left_nav h2 {
@@ -274,7 +274,7 @@ div#left_nav ul {
     list-style-type: none;
     }
 div#left_nav li {
-    line-height:1.1em;
+    line-height:13px;
     }
 div#left_nav li a {
     font-size:1em;
@@ -284,20 +284,20 @@ div#content #story h3
     {
     color: #990000;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
+    font-size: 13px;
     }
 	
 div#content #story_4 h3
     {
     color: #990000;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
+    font-size: 13px;
     }
 
 div#content #story p
     {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
+    font-size: 13px;
     margin:    .5em 0 .5em 0;
 	line-height: 1.3em;
     }
@@ -305,7 +305,7 @@ div#content #story p
 div#content #story_4 p
     {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
+    font-size: 13px;
     margin:    .5em 0 .5em 0;
 	line-height: 1.3em;
     }
@@ -314,13 +314,13 @@ div#content #storyhome h3
     {
     color: #990000;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
+    font-size: 13px;
     }	
 
 div#content #storyhome p
     {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
+    font-size: 13px;
     margin:    .5em 0 .5em 0;
 	line-height: 1.3em;
     }
@@ -328,7 +328,7 @@ div#content #storyhome p
 div#content #story .name 
 	{
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.1em;
+	font-size: 13px;
 	font-weight: bold;
 	margin: 1em 0 .5em 0;
 	}
@@ -336,7 +336,7 @@ div#content #story .name
 div#content #story_4 .name 
 	{
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.1em;
+	font-size: 13px;
 	font-weight: bold;
 	margin: 1em 0 .5em 0;
 	}
@@ -394,7 +394,7 @@ div#content #story ul
     list-style: none;
 	font-family:Arial, Helvetica, sans-serif;
 	line-height: 1.3em;
-    font-size: 1.1em;
+    font-size: 13px;
     }
 
 div#content #story #key_features
@@ -409,7 +409,7 @@ div#content #story ol
 	margin: 10px 10px 10px 30px;
 	font-family:Arial, Helvetica, sans-serif;
 	line-height: 1.3em;
-    font-size: 1.1em;
+    font-size: 13px;
 	}
 	
 div#footer

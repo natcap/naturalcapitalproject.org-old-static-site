@@ -85,7 +85,8 @@ table#dl_button {
 }
 
 table.model_table {
-    border: 1px solid black;
+    border: 1px solid gray;
+    margin: 0 auto;
 }
 
 table.model_table th {
@@ -122,6 +123,12 @@ div#dl_notify a:hover{
 
 #content #story_4 {
     margin-left: 10px;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-family: arial, sans-serif !important;
+    color: #444;
+
 }
 
 #content #story_4 #sysreq li{

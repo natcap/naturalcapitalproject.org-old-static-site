@@ -41,14 +41,17 @@
             </div>
             <div id="content">
     <div id="story_4">
-                    <h1>Download InVEST 2.5.6</h1>
+                    <h1>Download InVEST</h1>
+
+                    <p>InVEST is family of models to measure ecosystem service benefits and tradeoffs between spatial planning scenarios at a regional scale with local data.</p>
+
                     <div id="dl_button_container">
-                        <a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/InVEST_2_5_6_x86_Setup.exe" onmouseover="changeClass('dl_button')" onmouseout="changeClass('dl_button')" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/invest2.5.6'])">
+                        <a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/InVEST_2_6_0_x86_Setup.exe" onmouseover="changeClass('dl_button')" onmouseout="changeClass('dl_button')" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/invest2.6.0'])">
                         <table id="dl_button" class="inactive">
                             <tr>
                                 <td><img id="dl_arrow" src="images/dl-trans.png"></td>
-                                <td><span class="invest_dl">Download</span><h2 class="invest_dl">InVEST 2.5.6</h2>
-                                <span class="invest_dl">(32 bit)</span></td>
+                                <td><span class="invest_dl">Download</span><h2 class="invest_dl">InVEST 2.6.0</h2>
+				</td>
                             </tr>
                         </table></a>
                         <a href="http://ncp-dev.stanford.edu/~dataportal/nightly-build/release_tip/release_tip/documentation/">
@@ -69,45 +72,49 @@
                         </a>
                         <ul>
 			  <li><em><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release">Static (old) version of user's guide</a></em></li>
-                        <li><em><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/InVEST_2_5_6_x64_Setup.exe" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/invest2.5.6'])">InVEST 2.5.6 (64 bit)</a>.</em></li>
-                        <li><em><a href="http://ncp-dev.stanford.edu/~dataportal/invest-data/2.5.6">Individual InVEST demo datasets</a>.</em></li>
+                        <li><em><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/InVEST_2_6_0_x64_Setup.exe" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/invest2.6.0'])">InVEST 2.6.0 (64 bit)</a>.</em></li>
+                        <li><em><a href="http://ncp-dev.stanford.edu/~dataportal/invest-data/2.6.0">Individual InVEST demo datasets</a>.</em></li>
                         <li><em><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases">Older InVEST versions</a>.</em></li>
-                        <li><em><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/invest_natcap-2.5.6.win32-py2.7.exe" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/invest2.5.6_win32-2py27'])">InVEST 2.5.6 Python Extensions Python 2.7 (32 bit)</a>.</em></li>
-			<li><em><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/invest_natcap-2.5.6.win-amd64-py2.7.exe" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/invest2.5.6_win-amd32-2py27'])">InVEST 2.5.6 Python Extensions Python 2.7 (64 bit)</a>.</em></li>
+                        <li><em><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/invest_natcap-2.6.0.win32-py2.7.exe" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/invest2.6.0_win32-2py27'])">InVEST 2.6.0 Python Extensions Python 2.7 (32 bit)</a>.</em></li>
+			<li><em><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/invest_natcap-2.6.0.win-amd64-py2.7.exe" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/invest2.6.0_win-amd32-2py27'])">InVEST 2.6.0 Python Extensions Python 2.7 (64 bit)</a>.</em></li>
 
 			<li><em><a href="rios_download.html">Download Water Funds Prioritization Tool</a></em></li>
                         </ul>
                     </div>
-                    <p>InVEST is a family of ecosystem service evaluation tools.  Historically, the Natural Capital Project developed these models in the ArcGIS computing platform.  Although this allowed us to prototype tools quickly, we found a dependency on the ArcGIS framework to be a limiting factor in collaborating with a wide audience of potential users as well as a crutch in the development of advanced functionality of the InVEST toolset.</p>
 
-		    <p>Version 2.5.6 was released on September 6, 2013 and contains both ArcGIS dependent and standalone tools.  The following table illustrates which models are available in which platform.</p>
+                    <h2>System Requirements</h2>
+
+		    <p>The InVEST toolsuite consists of models that
+		    require ArcGIS and standalone models. Part of ongoing InVEST
+		    software development focuses on transitioning all
+		    models off the ArcGIS platform.  The following
+		    table is a guide to show which models are supported on each platform.</p>
 
 		    <table class="model_table">
-		      <tr><th>Model</th><th>"3.0" Standalone</th><th>ArcGIS 9.3/10.0</th></tr>
-		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/croppollination.html">Crop Pollination</a></td><td class="choice">x</td><td class="choice">x (deprecated)</td></tr>
-		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/managed_timber_production_model.html">Managed Timber Production</a></td><td class="choice">x</td><td class="choice">x (deprecated)</td></tr>
-		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/sediment_retention.html">Sediment Retention</a></td><td class="choice">x (beta)</td><td class="choice">x</td></tr>
-		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/waterpurification.html">Nutrient Retention</a></td><td class="choice">x (beta)</td><td class="choice">x</td></tr>
-		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/reservoirhydropowerproduction.html">Water Yield</a></td><td class="choice">x</td><td class="choice">x</td></tr>
-		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/carbonstorage.html">Carbon Storage and Sequestration</a></td><td class="choice">x</td><td class="choice">x (deprecated)</td></tr>
-		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/biodiversity.html">Habitat Quality</a></td><td class="choice">x</td><td class="choice">x (deprecated)</td></tr>
+		      <tr><th>Model</th><th>Windows Standalone</th><th>ArcGIS 9.3/10.0</th></tr>
+		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/croppollination.html">Crop Pollination</a></td><td class="choice">x</td><td class="choice"></td></tr>
+		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/managed_timber_production_model.html">Managed Timber Production</a></td><td class="choice">x</td><td class="choice"></td></tr>
+		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/sediment_retention.html">Sediment Retention</a></td><td class="choice">x (unstable)</td><td class="choice">x</td></tr>
+		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/waterpurification.html">Nutrient Retention</a></td><td class="choice">x (unstable)</td><td class="choice">x</td></tr>
+		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/reservoirhydropowerproduction.html">Water Yield</a></td><td class="choice">x</td><td class="choice"></td></tr>
+		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/carbonstorage.html">Carbon Storage and Sequestration</a></td><td class="choice">x</td><td class="choice"></td></tr>
+		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/biodiversity.html">Habitat Quality</a></td><td class="choice">x</td><td class="choice"></td></tr>
 		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/marine_water_quality.html">Marine Water Quality</a></td><td class="choice">x</td><td class="choice"></td></tr>
-		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/habitat_risk_assessment.html">Habitat Risk Assessment</a></td><td class="choice">x </td><td class="choice">x</td></tr>
-		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/overlap_analysis.html">Overlap Analysis</a></td><td class="choice">x</td><td class="choice">x</td></tr>
+		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/habitat_risk_assessment.html">Habitat Risk Assessment</a></td><td class="choice">x (beta)</td><td class="choice">x</td></tr>
+		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/overlap_analysis.html">Overlap Analysis</a></td><td class="choice">x</td><td class="choice"></td></tr>
 		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/aesthetic_quality.html">Aesthetic Quality</a></td><td class="choice"></td><td class="choice">x</td></tr>
-		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/marine_fish.html">Marine Fish Aquaculture</a></td><td class="choice">x</td><td class="choice">x (deprecated)</td></tr>
+		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/marine_fish.html">Marine Fish Aquaculture</a></td><td class="choice">x</td><td class="choice"></td></tr>
 		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/coastal_protection.html">Coastal Erosion Protection</a></td><td class="choice"></td><td class="choice">x</td></tr>
-		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/coastal_vulnerability.html">Coastal Vulnerability</a></td><td class="choice">x</td><td class="choice">x (deprecated)</td></tr>
-		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wave_energy.html">Wave Energy</a></td><td class="choice">x</td><td class="choice">x (deprecated)</td></tr>
+		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/coastal_vulnerability.html">Coastal Vulnerability</a></td><td class="choice">x</td><td class="choice"></td></tr>
+		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wave_energy.html">Wave Energy</a></td><td class="choice">x</td><td class="choice"></td></tr>
 		      <tr><td class="model_name"><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wind_energy.html">Wind Energy</a></td><td class="choice">x</td><td class="choice"></td></tr>
 		    </table>
 
 <br  />
-                    <h2>System Requirements</h2>
 
-		    <p>The standalone tools require Windows Vista or later, but otherwise have no system requirements (InVEST 3.0 standalones are not supported on Windows XP at the moment). Generally the models will benefit from a high-end machine (large amounts of RAM and processing power), but is not a requirement.</p>
 
-		    <p>The ArcGIS based tools have the following requirements
+
+		    <p>The ArcGIS based tools have additional software requirements
                     <ul id="sysreq">
                         <li>
                             ArcGIS 9.3 (service pack 1 or higher) or ArcGIS 10 (service pack 1 or higher)
@@ -115,9 +122,6 @@
                         <li>
                             ArcGIS Spatial Analyst extension
                         </li>
-	                <li>
-	                  <a href="http://ncp-dev.stanford.edu/~dataportal/invest-data/GDAL.zip">Geospatial Data Abstraction Library (GDAL) Extension</a> <em>Only required for the ArcGIS pollination model.</em>
-	                </li>
 	                <li>
 	                  <a href="http://ncp-dev.stanford.edu/~dataportal/invest-data/MarinePythonExt_Py2.5_Arc9.3.zip">Marine Python Extensions for ArcGIS 9.3/Python 2.5</a> <em>Only required for ArcGIS marine models.</em>
 	                </li>
@@ -128,35 +132,7 @@
 	                  <a href="http://ncp-dev.stanford.edu/~dataportal/invest-data/MarinePythonExt_Py2.7_Arc10.1.zip">Marine Python Extensions for ArcGIS 10.1/Python 2.7</a> <em>Only required for ArcGIS marine models.</em>
 			</li>	                          
 		    </ul>
-
-  <br  />                  <h2>User Support</h2>
-                    <p>A user's guide is included with InVEST and is also
-                    available online here: <a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release">Online InVEST 2.5.5 User's Guide</a></p>
-                    <p>We have a public user forum hosted <a href="http://ncp-yamato.stanford.edu/natcapforums/">HERE</a>  Topics include technical support, data needs, applications, and others.  Software issues can also be directly reported to <strong><code>richsharp@stanford.edu</code></strong>.  There is also an InVEST user email list at <a href="https://mailman.stanford.edu/mailman/listinfo/invest-users">invest-users@lists.stanford.edu</a>, please consider joining to receive update notices and connect with other InVEST users. When submitting a bug report please include the following
-                        information:
-                        <ul id="sysreq">
-                          <li>The InVEST model that's failing.</li>
-                          <li>Explicit error message or behavior (a copy and
-                            paste of the log output is helpful).</li>
-                          <li>If possible, a screenshot of the state of your
-                            InVEST toolset when you get the error.</li>
-                          <li>ArcGIS version and service pack number.</li>
-			  <li>If we cannot easily resolve your error, we may need your original datasets to recreate the error on our end.</li>
-			</ul>
-                    </p>
-    <br  />                
-                    <h2>Supporting Downloads</h2>
-                    <p>These downloads are required for some old models.  Refer to
-                    the user's guide for a particular model for more information.</p>
-		    <ul>
-	              <li>
-	                <a href="pubs/Natcap_climate.tbx">Modified Hargreaves Reference Evapotranspiration Tool (ArcGIS 9.3)</a>
-	              </li>
-	              <li>
-	                <a href="Extraterrestrial%20radiation%20tool.xls">Excel tool to estimate Extraterrestrial Radiation</a>
-	              </li>
-                    </ul>
-                    <br />
+		    <br />
                 </div>
             </div>
             <div id="footer">
