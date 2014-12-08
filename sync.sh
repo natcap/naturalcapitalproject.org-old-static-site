@@ -9,4 +9,4 @@ find ./ -name "*.sh" -print0 | xargs -0 chmod u+x
 echo 'Make all directories executable'
 find ./ -type d -print0 | xargs -0 chmod 711
 
-rsync -avP --exclude=".hg" ./. naturalcapitalproje@naturalcapitalproject.org:public_html
+rsync -avP --exclude=".hg" ./. naturalcapitalproje@130.211.132.207:/var/www/naturalcapitalproject.org/public_html
