@@ -2,6 +2,6 @@ Options +Includes
 AddType text/html .html
 AddOutputFilter INCLUDES .html
 
-<FilesMatch "\.(jpg|jpeg|png|gif|css)$">
+<FilesMatch "\.(jpg|jpeg|png|gif|css|js)$">
     Header set Cache-Control "max-age=120, public"
 </FilesMatch>
