@@ -24,7 +24,19 @@ sfHover = function() {
 if (window.attachEvent) window.attachEvent("onload", sfHover);
 
 //--><!]]></script>
-<script type="text/javascript" src="scripts/toggleButton.js"></script>
+<script type="text/javascript">
+function changeClass(ID) {
+  var classname = document.getElementById(ID).className;
+  //alert(classname);
+  
+  if (classname == "inactive"){
+    document.getElementById(ID).className = document.getElementById(ID).className.replace(/\binactive\b/, 'active');
+  }
+  else {
+    document.getElementById(ID).className = document.getElementById(ID).className.replace(/\bactive\b/, 'inactive');
+  }
+}
+</script>
 <style type="text/css">
 <!--
 .style2 {font-family: Arial, Helvetica, sans-serif}
