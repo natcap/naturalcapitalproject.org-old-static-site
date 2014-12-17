@@ -4,5 +4,5 @@ AddOutputFilter INCLUDES .html
 AddDefaultCharset UTF-8
 
 <FilesMatch "\.(jpg|jpeg|png|gif|css|js)$">
-    Header set Cache-Control "max-age=120, public"
+    Header set Cache-Control "max-age=7200, public"
 </FilesMatch>
