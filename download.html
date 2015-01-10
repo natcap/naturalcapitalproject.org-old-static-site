@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
         <title>Natural Capital Project - InVEST</title>
         <style type="text/css">  
 
@@ -10,7 +10,8 @@
         <link href="css/ncp_main.css" rel="stylesheet" type="text/css" />
         <link href="css/download.css" rel="stylesheet" type="text/css" />
         <link href="css/navmenu.css" rel="stylesheet" type="text/css" />
-        <link href="images/favicon.gif" rel="shortcut icon" type="image/gif" />
+        <link rel="icon" href="/images/favicon.png" type="image/png" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <script type="text/javascript" src="scripts/dropmenu.js" language="javascript"></script>
         <script type="text/javascript" src="scripts/toggleButton.js" language="javascript"></script>
         <script type="text/javascript">function changeButton(img_name, img_src) {
@@ -26,7 +27,21 @@
                 var s = document.getElementsByTagName('script')[0];
                 s.parentNode.insertBefore(ga, s);
             })();
-</script>
+        </script>
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-24933546-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
     </head>
     <body>
         <div id="spacer"></div>
@@ -34,7 +49,7 @@
             <div id="banner"><img src="images/secondary_banner.png" width="755" height="96" alt="Natural Capital Project" /><a href="/"><i>Home</i></a>
             </div>
             <!-- #BeginLibraryItem "/navmenu.lbi" -->
-            <!--#include virtual="/inc/navLone.html" -->
+            <!--#include virtual="inc/navLone.html" -->
             <!-- #EndLibraryItem -->
             <div id="breadcrumb">
                 <a href="/">Home</a> &gt;&gt; <a href="toolbox.html">Toolbox</a> &gt;&gt; InVEST
@@ -46,18 +61,18 @@
                     <p>InVEST is family of models to explore ecosystem service benefits and tradeoffs between spatial planning scenarios at a regional scale.</p>
 
                     <div id="dl_button_container">
-                        <a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/InVEST_3_1_0_x86_Setup.exe" onmouseover="changeClass('dl_button')" onmouseout="changeClass('dl_button')" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/invest3.1.0'])">
+                        <a href="http://data.naturalcapitalandresilienceplatform.org/invest-releases/InVEST_3_1_0_x86_Setup.exe" onmouseover="changeClass('dl_button')" onmouseout="changeClass('dl_button')" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/invest3.1.0'])">
                         <table id="dl_button" class="inactive">
                             <tr>
-                                <td><img id="dl_arrow" src="images/dl-trans.png"></td>
+                                <td><img id="dl_arrow" width="50" height="50" src="images/dl-trans.png"></td>
                                 <td><span class="invest_dl">Download</span><h2 class="invest_dl">InVEST 3.1.0</h2>
 				</td>
                             </tr>
                         </table></a>
-                        <a href="http://ncp-dev.stanford.edu/~dataportal/nightly-build/release_tip/release_tip/documentation/">
+                        <a href="http://data.naturalcapitalandresilienceplatform.org/nightly-build/release_tip/release_tip/documentation/">
                             <table id="doc_link">
                                 <tr>
-                                    <td><img id="help-icon" src="images/documentation.png"></td>
+                                    <td><img id="help-icon" width="30" height="28" src="images/documentation.png"></td>
                                     <td><span class="invest_doc">Current InVEST Documentation</span>
                                 </tr>
                             </table>
@@ -65,16 +80,16 @@
                         <a href="http://ncp-yamato.stanford.edu/natcapforums">
                             <table id="doc_link">
                                 <tr>
-                                    <td><img id="help-icon" src="images/forums_icon.png"></td>
+                                    <td><img id="help-icon" width="30" height="28" src="images/forums_icon.png"></td>
                                     <td><span class="invest_doc">User Forums</span>
                                 </tr>
                             </table>
                         </a>
 				<p>Other useful links</p>
                         <ul>
-                        <li><em><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases/invest_natcap-3.1.0.win32-py2.7.exe" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/invest3.1.0_win32-2py27'])">InVEST 3.1.0 Python Extensions Python 2.7 (32 bit)</a></em></li>
-                        <li><em><a href="http://ncp-dev.stanford.edu/~dataportal/invest-releases">Old InVEST versions</a></em></li>
-                        <li><em><a href="http://ncp-dev.stanford.edu/~dataportal/invest-data/3.1.0">Individual InVEST sample datasets</a></em></li>
+                        <li><em><a href="http://data.naturalcapitalandresilienceplatform.org/invest-releases/invest_natcap-3.1.0.win32-py2.7.exe" onClick="javascript: _gaq.push(['_trackPageview', '/downloads/invest3.1.0_win32-2py27'])">InVEST 3.1.0 Python Extensions Python 2.7 (32 bit)</a></em></li>
+                        <li><em><a href="http://data.naturalcapitalandresilienceplatform.org/invest-releases">Old InVEST versions</a></em></li>
+                        <li><em><a href="http://data.naturalcapitalandresilienceplatform.org/invest-data/3.1.0">Individual InVEST sample datasets</a></em></li>
                         </ul>
                     </div>
 
@@ -94,13 +109,13 @@
                             ArcGIS Spatial Analyst extension
                         </li>
 	                <li>
-	                  <a href="http://ncp-dev.stanford.edu/~dataportal/invest-data/MarinePythonExt_Py2.5_Arc9.3.zip">Marine Python Extensions for ArcGIS 9.3/Python 2.5"</a> <em>Required for the ArcGIS based coastal protection model.</em>
+	                  <a href="http://data.naturalcapitalandresilienceplatform.org/invest-data/MarinePythonExt_Py2.5_Arc9.3.zip">Marine Python Extensions for ArcGIS 9.3/Python 2.5"</a> <em>Required for the ArcGIS based coastal protection model.</em>
 	                </li>
 	                <li>
-	                  <a href="http://ncp-dev.stanford.edu/~dataportal/invest-data/MarinePythonExt_Py2.6_Arc10.zip">Marine Python Extensions for ArcGIS 10/Python 2.6</a> <em>Required for the ArcGIS based coastal protection model.</em>
+	                  <a href="http://data.naturalcapitalandresilienceplatform.org/invest-data/MarinePythonExt_Py2.6_Arc10.zip">Marine Python Extensions for ArcGIS 10/Python 2.6</a> <em>Required for the ArcGIS based coastal protection model.</em>
 	                </li>
 	                <li>
-	                  <a href="http://ncp-dev.stanford.edu/~dataportal/invest-data/MarinePythonExt_Py2.7_Arc10.1.zip">Marine Python Extensions for ArcGIS 10.1 and 10.2/Python 2.7</a> <em>Required for the ArcGIS based coastal protection model.</em>
+	                  <a href="http://data.naturalcapitalandresilienceplatform.org/invest-data/MarinePythonExt_Py2.7_Arc10.1.zip">Marine Python Extensions for ArcGIS 10.1 and 10.2/Python 2.7</a> <em>Required for the ArcGIS based coastal protection model.</em>
 			</li>	                          
 		    </ul>
 		    <br />
@@ -110,18 +125,6 @@
                 &copy; Stanford Woods Institute for the Environment, University of Minnesota's Institute on the Environment, The Nature Conservancy, World Wildlife Fund.
             </div>
         </div>
-        <!-- comment: inserting google analytics tracking code -->
-        <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-        </script>
-        <script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-13097570-1");
-pageTracker._trackPageview();
-} catch(err) {}
-        </script>
-        <!-- comment: end google analytics tracking code -->
     </body>
 </html>
 

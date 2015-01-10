@@ -1,0 +1,8 @@
+Options +Includes
+AddType text/html .html
+AddOutputFilter INCLUDES .html
+AddDefaultCharset ISO-8859-1
+
+<FilesMatch "\.(jpg|jpeg|png|gif|css|js)$">
+    Header set Cache-Control "max-age=86400, public"
+</FilesMatch>
