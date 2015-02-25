@@ -6,3 +6,5 @@ AddDefaultCharset ISO-8859-1
 <FilesMatch "\.(jpg|jpeg|png|gif|css|js)$">
     Header set Cache-Control "max-age=86400, public"
 </FilesMatch>
+
+Redirect /events/annualmeeting2015.html http://natcap2015.wordpress.com
