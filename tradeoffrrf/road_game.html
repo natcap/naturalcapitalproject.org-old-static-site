@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="carbon_points_d2.js"> </script>
-    <script src="cost_points_v3.js"> </script>
+    <script src="carbon_points.js"> </script>
+    <script src="cost_points.js"> </script>
     <script src="erosion_points.js"> </script>
-    <script src="sed_retention_points_d2.js"> </script>
-    <script src="habitat_quality_points_d2.js"> </script>
+    <script src="sed_retention_points.js"> </script>
+    <script src="habitat_quality_points.js"> </script>
     <script src="road_game_parameters_roads.js"></script>
     <script src="road_game.js"></script>
     <link rel="stylesheet" href="road_game.css">
@@ -44,6 +44,25 @@
             </div>
         </div>
 
+
+        <table id="wildlife_crossings" class="inputs">
+            <caption ><center><h4 class="header-style">Wildlife Crossing<br />Locations</h4></center></caption>
+
+            <tr>
+                <td> </td><td><center>Row</center></td><td><center>Col</center></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><input type="text" name="y" value="" size=2 ></td>
+                <td><input type="text" name="x" value="" size=2 ></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><input type="text" name="y" value="" size=2 ></td>
+                <td><input type="text" name="x" value="" size=2 ></td>
+            </tr>
+        </table>
+
         <table id="conservation_blocks" class="inputs">
             <caption><center><h4 class="header-style">Conservation Block<br />Locations</h4></center></caption>
 
@@ -77,24 +96,8 @@
             </tr>
         </table>
 
-        <table id="wildlife_crossings" class="inputs">
-            <caption ><center><h4 class="header-style">Wildlife Crossing<br />Locations</h4></center></caption>
-
-            <tr>
-                <td> </td><td><center>Row</center></td><td><center>Col</center></td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td><input type="text" name="y" value="" size=2 ></td>
-                <td><input type="text" name="x" value="" size=2 ></td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td><input type="text" name="y" value="" size=2 ></td>
-                <td><input type="text" name="x" value="" size=2 ></td>
-            </tr>
-        </table>
         <br />
+
         <table id="outputs" class="outputs">
             <tr>
                 <th class="blue">Road development<br />benefits</th><th></th> <!-- Where minus will go -->
@@ -145,6 +148,15 @@
             <tr>
                 <td></td><td></td><td></td><td></td> <!-- burn 8 column spots for alignment -->
                 <td><input disabled type="text" id="habitat_loss"></td>
+            </tr>
+            <tr>
+                <th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th> <!-- burn 8 column spots for alignment -->
+                <th class="red unbold hide">Carbon cost</th> <!-- leave blank spot for alignment -->
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td> <!-- burn 8 column spots for alignment -->
+
+                <td class="hide"><input disabled type="text" id="carbon_cost"></td>
             </tr>
         </table>
     </div>

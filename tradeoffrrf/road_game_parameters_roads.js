@@ -21,17 +21,45 @@ var pb = 0.5;
 // Wildlife Crossing Cost
 var wcc = 20.0;
 // Proportion of original habitat quality score retained under
-// wildlife crossing PHQ = 1
+// wildlife crossing PHQ
 var phq = 0.5;
-// Protected area cost PAC = 100
+// Protected area cost PAC
 var pac = 50.0;
 // Proportion of original environmental values (carbon, drinking water quality,
-// landslide risk, habitat quality) retained in protected area PPA =1
+// landslide risk, habitat quality) retained in protected area PPA
 var ppa = 1.0;
 
 // City locations are D5 and AA28 on map
 // City points as related to 2D array are:
 var city_points = [[3, 4], [26, 27]];
+
+// List of row indicators whose index represents row number in
+// 2D array space
+var row_translate = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K",
+                     "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V",
+                     "W", "X", "Y", "Z", "AA", "AB", "AC", "AD"];
+
+// The following arrays are kernels which represent the buffer indices
+// to check around a road pixel.
+
+// This kernel is for a ninety degree turn pixel and looks to set buffer
+// values NW, N, NE, W, E, SW, S, SE
+// 1 1 1
+// 1 0 1
+// 1 1 1
+var kernel_90 = [[-1, -1], [-1, 0], [-1, 1],
+                  [0, -1], [0, 1],
+                  [1, -1], [1, 0], [1, 1]]
+
+// A normal kernel for all other pixels
+// W, N, E, S
+// 0 1 0
+// 1 0 1
+// 0 1 0
+var kernel = [[-1, 0], [0, -1], [0, 1], [1, 0]]
+
+// Map for the kernel typle selectoin
+var kern = {0: kernel, 1: kernel_90};
 
 // The following roads are indexed in order from City D5 to City AA28
 // The first value is row position, then column position as viewed by
@@ -71,20 +99,5 @@ var road_e = [
     ["Q", "28", 0], ["R", "28", 0], ["S", "28", 0], ["T", "28", 0], ["U", "28", 0], ["V", "28", 0], ["W", "28", 0], ["X", "28", 0],
     ["Y", "28", 0], ["Z", "28", 0]];
 
-/*
-var road_x_b = [
-    ["E", "6", 0], ["F", "7", 0], ["G", "8", 0], ["H", "9", 0], ["I", "10", 0], ["J", "11", 0], ["J", "12", 0],
-    ["J", "13", 0], ["J", "14", 0], ["J", "15", 0], ["J", "16", 0], ["J", "17", 0], ["J", "18", 0], ["J", "19", 0],
-    ["J", "20", 0], ["J", "21", 0], ["J", "22", 0], ["J", "23", 0], ["J", "24", 0], ["J", "25", 1], ["K", "25", 0],
-    ["L", "25", 0], ["M", "25", 0], ["N", "25", 0], ["O", "25", 0], ["P", "25", 0], ["Q", "25", 0], ["R", "25", 0],
-    ["S", "25", 0], ["T", "25", 0], ["U", "25", 0], ["V", "25", 0], ["W", "25", 0], ["X", "25", 0], ["Y", "26", 0],
-    ["Z", "27", 0]];
-
-var road_x_g = [
-    ["E", "5", 0], ["F", "5", 0], ["G", "5", 0], ["H", "5", 0], ["I", "5", 0], ["J", "5", 0], ["K", "5", 0], ["L", "5", 0],
-    ["M", "5", 0], ["N", "5", 0], ["O", "5", 0], ["P", "5", 0], ["Q", "5", 0], ["R", "5", 0], ["S", "5", 0], ["T", "6", 0],
-    ["U", "7", 0], ["V", "8", 0], ["W", "9", 0], ["X", "10", 0], ["Y", "11", 0], ["Z", "12", 0], ["AA", "13", 0], ["AA", "14", 0],
-    ["AA", "15", 0], ["AA", "16", 0], ["AA", "17", 0], ["AA", "18", 0], ["AA", "19", 0], ["AA", "20", 0], ["AA", "21", 0],
-    ["AA", "22", 0], ["AA", "23", 0], ["AA", "24", 0], ["AA", "25", 0], ["AA", "26", 0], ["AA", "27", 0]];
-*/
-
+// Map for our road types. Mapping html value to html element id
+var road_map = {"A":road_a, "B":road_b, "C":road_c, "D":road_d, "E":road_e};
