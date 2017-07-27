@@ -157,7 +157,7 @@ function getCells(table){
         }
         else{
             // This is the row
-            points.push(row_translate.indexOf(col_one.firstChild.value));
+            points.push(row_translate.indexOf(col_one.firstChild.value.toUpperCase()));
             // This is the column
             points.push(parseInt(col_two.firstChild.value) - 1);
             // Push point as row, col.
